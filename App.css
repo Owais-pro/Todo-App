@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+body{
+    background-image: url(andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#main{
+    margin-top: 50px;
+    width: 50%;
+
+    
+}
+#todo{
+    margin-block: 10px;
+    border: 3px solid #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    outline-style: none;
+    
+}
+#addbtn{
+    margin-block: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+ol{
+    list-style: none;
+}
+#displayinput{
+    margin-block: 5px;
+    border: 3px solid lightgreen;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: transparent;
+    outline-style: none;
+    color: lawngreen;
+
+}
+#deletebtn{
+    margin-block: 5px;
+    border: 3px solid #ec091f;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #f95666;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+#updatebtn{
+    margin-block: 5px;
+    border: 3px solid #29cf07;
+    padding: 8px;
+    border-radius: 5px;
+    color: #99f486;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+h1{
+    font-size: 3em; 
+     color: #333;
+     font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+input[type="text"]::placeholder {
+    color: #ffffff;
+    font-weight: bold;
+}
+#deleteicon{
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 10px;
+}
+#updateicon{
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 10px;
+}
+#addicon{
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 10px;
+
+}
+  
